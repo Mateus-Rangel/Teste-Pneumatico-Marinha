@@ -1,0 +1,38 @@
+#titulo {
+  background-image: url("img/manometro_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: calc(300px - 48px);
+}
+
+h1 {
+  text-align: center;
+}
+
+#meta {
+  margin: 40px 120px;
+}
+
+#meta p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#meta .cabLista {
+  text-align: left;
+}
+
+#regFotografico {
+  margin: 40px 120px;
+}
+
+.carousel-item img {
+  margin: auto;
+}
+
+.carousel-caption {
+  position: static;
+}
+
+
