@@ -15,12 +15,18 @@ h1 {
 }
 
 #meta p {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 1rem;
 }
 
-#meta .cabLista {
+.cabLista {
   text-align: left;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.cabLista::after {
+  content: icon;
 }
 
 #regFotografico {
@@ -35,4 +41,16 @@ h1 {
   position: static;
 }
 
+.inline {
+  display: inline;
+}
 
+.arrowNormal {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.arrowDown {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
